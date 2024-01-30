@@ -44,7 +44,7 @@ const ProductsPage = ()=> {
           <td>13.01.2022</td>
           <td>77</td>
           <td className={styles.buttons}>
-            <Link href="/">
+            <Link href="/dashboard/products/xxx">
               <button className={`${styles.button} ${styles.view}`}>View</button>
             </Link>
               <button className={`${styles.button} ${styles.delete}`}>Delete</button>
